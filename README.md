@@ -1,10 +1,8 @@
 # SUPopups
-简介：
------
+简介：<br>
 只要给我传入一个view，我便给你一个popupsView\<br>
 
-使用：
------
+使用：<br>
 1.把SUPopups文件夹拖到项目中\<br>
 2.#import "SUPopupsView.h"\<br>
 3.创建一个view（需要设置相对于全屏的frame）\<br>
