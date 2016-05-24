@@ -3,7 +3,7 @@
 //  SUPopupsViewDemo
 //
 //  Created by 苏俊海 on 16/5/19.
-//  Copyright © 2016年 苏俊海. All rights reserved.
+//  Copyright © 2016年 sujunhai. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -84,6 +84,7 @@
     view.layer.cornerRadius = 6;
     SUPopupsView *popup = [SUPopupsView popupsViewWithMenuView:view];
     popup.animation = SUPopupsViewAnimationMiddle;
+    popup.backAlpha = 0.1;
     popup.shadowEnabled = YES;
     popup.shadowRadius = 6;
     popup.tapOutInsideEnabled = YES;
@@ -96,7 +97,8 @@
     view.backgroundColor = [UIColor whiteColor];
     SUPopupsView *popup = [SUPopupsView popupsViewWithMenuView:view];
     popup.animation = SUPopupsViewAnimationRight;
-    popup.backAlpha = 0.1;
+    popup.shadowEnabled = YES;
+    popup.shadowRadius = 6;
     [self.view.window addSubview:popup];
     [self additionWith:@selector(rightBtnAction:) :sender :popup];
 }

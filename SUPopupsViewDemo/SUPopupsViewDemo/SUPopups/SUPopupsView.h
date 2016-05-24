@@ -1,6 +1,6 @@
 //
 //  SUPopupsView.h
-//  弹出菜单 v1.1
+//  弹出菜单 v1.2
 //
 //  Created by 苏俊海 on 16/2/25.
 //  Copyright © 2016年 sujunhai. All rights reserved.
@@ -78,8 +78,8 @@ typedef NS_ENUM(NSInteger, SUPopupsViewBackAlphaPosition) {
 /** 能否通过轻拍弹窗之内的地方退出弹窗（默认NO） */
 @property (nonatomic, assign) BOOL tapOutInsideEnabled;
 
-/** 屏幕旋转时从父视图的非常规移除（默认NO） */
-@property (nonatomic, assign) BOOL abnormalRemove;
+/** 屏幕旋转时从父视图非常规移除 */
+@property (nonatomic, assign, readonly) BOOL abnormalRemove;
 
 /**
  @param menuView 你想要弹出的菜单视图

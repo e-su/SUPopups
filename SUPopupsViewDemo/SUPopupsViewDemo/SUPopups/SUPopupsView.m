@@ -1,6 +1,6 @@
 //
 //  SUPopupsView.m
-//  弹出菜单 v1.1
+//  弹出菜单 v1.2
 //
 //  Created by 苏俊海 on 16/2/25.
 //  Copyright © 2016年 sujunhai. All rights reserved.
